@@ -240,7 +240,7 @@ def main():
     set_page_configuration()
     display_introduction()
 
-    render_css('style.css')
+    render_css('css/style.css')
 
     selected_navbar_menu = get_selected_navbar_menu()
     if selected_navbar_menu == 'Home':
